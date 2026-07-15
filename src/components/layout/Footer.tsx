@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-    Facebook, Linkedin, Instagram, MapPin, Mail, Phone, Sparkle
+    Facebook, Linkedin, Instagram, MapPin, Mail, Phone
 } from "lucide-react";
 import { CONTACT_INFO, NAV_LINKS } from "@/lib/constants";
 import { Logo } from "@/components/brand/Logo";
@@ -20,8 +20,11 @@ export default function Footer() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-8">
                     <div>
-                        <Link href="/">
-                            <Logo variant="footer" useImage className="h-10 md:h-12 mb-4" />
+                        <Link
+                            href="/"
+                            className="inline-flex w-fit bg-white px-4 py-2 rounded-lg border border-white/80 shadow-sm mb-4 hover:border-gold transition"
+                        >
+                            <Logo variant="footer" useImage className="h-10 md:h-13" />
                         </Link>
                         <p className="text-sm opacity-60 mb-4 italic">Since 2009</p>
                         <p className="text-sm opacity-80 leading-relaxed mb-6">
