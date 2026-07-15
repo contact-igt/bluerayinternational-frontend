@@ -24,11 +24,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/assets/BLUERAY Logo Blue.png",
+        url: "/assets/BlueRay_logo_new.png",
         sizes: "any",
       }
     ],
-    apple: "/assets/BLUERAY Logo Blue.png",
+    apple: "/assets/BlueRay_logo_new.png",
   },
 };
 

@@ -56,8 +56,8 @@ export default function Navbar() {
                 <div className="container mx-auto px-4 flex justify-between items-center">
 
                     {/* Logo Section */}
-                    <Link href="/" className="cursor-pointer group bg-navy-deep px-4 py-2 rounded-lg hover:bg-navy-midnight transition">
-                        <Logo variant="header" useImage className="h-10 md:h-12" />
+                    <Link href="/" className="cursor-pointer group px-4 py-2 rounded-lg  transition">
+                        <Logo variant="header" useImage className="h-10 md:h-13" />
                     </Link>
 
                     {/* Desktop Nav */}

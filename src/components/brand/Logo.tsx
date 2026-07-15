@@ -11,7 +11,7 @@ interface LogoProps {
 export const Logo: React.FC<LogoProps> = ({ className = "h-8", variant = 'dark', showText = true, useImage = false }) => {
     // Use image variants for header/footer
     if (useImage && (variant === 'header' || variant === 'footer')) {
-        const imageUrl = variant === 'header' ? '/assets/BLUERAY Logo White.png' : '/assets/BLUERAY Logo White.png';
+        const imageUrl = variant === 'header' ? '/assets/BlueRay_logo_new.png' : '/assets/BlueRay_logo_new.png';
         return (
             <div className={`flex items-center w-fit ${className}`}>
                 <Image
