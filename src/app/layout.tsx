@@ -21,14 +21,10 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: "Blueray International | Engineering Quality & NDT Training",
   description: "Specialized training in NDT, QA/QC, and Safety since 2009. Empowering careers in Marine, Oil & Gas, and Offshore sectors.",
-  icons: {
-    icon: [
-      {
-        url: "/assets/BlueRay_logo_new.png",
-        sizes: "any",
-      }
-    ],
-    apple: "/assets/BlueRay_logo_new.png",
+   icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
